@@ -1,0 +1,24 @@
+
+@import './modules/variables.css';
+
+.body {
+    background-color: var(--primary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 0.75rem;    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
